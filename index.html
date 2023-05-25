@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Introdução ao html e css</title>
+    <!--CSS externo-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+</head>
+<body>
+    <!--Título-->
+    <h1>Introdução ao HTML e CSS</h1>
+    <!--Subtitulo-->
+    <h2>HTML:</h2>
+    <!--Container genérico e seleção por classe-->
+    <div class="blocointro">
+        <p> 
+            <span>História do html: </span>
+            Foi inventado por Tim Berners-Lee, um físico do centro de pesquisas CERN, na Suíça. Ele surgiu com a ideia de um sistema de hipertexto na internet. Hipertexto significa um texto que possui referências (links) para outros textos que podem ser acessados imediatamente. Ele publicou a primeira versão do HTML em 1991, consistindo em 18 tags. Desde então, cada versão do HTML vem com novas tags e atributos (modificadores de tags).
+        </p>
+        <p> 
+            <span>O que são tags? </span>
+            As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página. A principal característica das tags é estarem sempre dentro dos sinais de chevron (sinal de “maior que” e “menor que”).
+        </p>
+        <p> 
+            <span>Estrutura básica do html:</span>
+            <br>
+            <img src="img/estruturabasicahtml.png" alt="texto alternativo">
+        </p>
+    </div>
+    <h3>Quais os tipos de listas?</h3>
+    <!--Tabela e seleção por id-->
+    <table id="tabela" border="1"> 
+        <tr>
+            <td>
+                <p>Lista Ordenada</p>
+                <ol>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                </ol>
+            </td>
+            <td>
+                <p>Lista Desordenada</p>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                </ul>
+            </td>
+            <td>
+                <p>Lista de Definições</p>
+                <dl>
+                    <dt>
+                        Item 1
+                        <dd>Subitem</dd>
+                    </dt>
+                </dl>
+            </td>
+        </tr>
+    </table>
+
+    <h4><a href="page/page.html">Próxima página →</a></h4>
+    <div id="footer">
+        <p class="ministrantes">Extensão - FATESG - Senai | Alunos do 5º período de Análise e Desenvolvimento de Sistemas | 1º/ 2023</p>
+    </div>
+</body>
+</html>

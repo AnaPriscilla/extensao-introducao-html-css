@@ -1,0 +1,90 @@
+html {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body {margin:0px;}
+h1 {
+    text-align: center;
+    background: #26a69a;
+    padding: 50px;
+    margin: 0px;
+}
+h2 {
+    background: orangered; 
+    width: 20%;
+    padding-left: 50px; 
+    margin: 0;
+}
+.blocointro {
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+span {
+    font-size: 18px;
+    color: #26a69a;
+    font-weight: bold;
+}
+
+img {
+    margin: 10px;
+}
+
+#tabela {
+    margin-left: 50px;
+    background: rgb(242, 242, 242);
+    margin-bottom: 50px;
+}
+
+h3 {font-size: 18px; color: #26a69a; padding-left: 50px;}
+
+td {
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+
+.item {color: orangered; font-size: 15px;}
+
+fieldset {padding: 25px; margin-top: 50px;}
+
+#botao {
+    width: 20%; 
+    margin-left: 15px; 
+    background: #26a69a; 
+    border-color:#26a69a; 
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h4 {text-align: right;}
+a {color: orangered; padding: 10px; border: 1px; border-style: solid; margin-right: 50px;}
+#footer {background: #303030; padding: 50px; color: #f3f3f3;}
+.ministrantes {font-size: 14px; text-align: center;}
+
+#imagem1 {
+    border: 5px;
+    border-style: dotted;
+}
+
+#imagem2 {
+    border: 10px;
+    border-style: double;
+    border-color: orange;
+}
+
+#imagem3 {
+    border: 3px;
+    border-style:dashed;
+    border-color:#26a69a;
+}
+
+#imagem4 {
+    border: 8px;
+    border-style:outset;
+    border-color: orangered;
+}

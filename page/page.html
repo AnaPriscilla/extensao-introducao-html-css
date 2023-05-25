@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Introdução ao html e css</title>
+    <!--CSS externo-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+</head>
+<body>
+    <!--Título-->
+    <h1>Introdução ao HTML e CSS</h1>
+    <!--Subtitulo-->
+    <h2>CSS</h2>
+    <div class="blocointro">
+        <p> 
+            <span>História do CSS: </span>
+            Foi desenvolvido pelo W3C (World Wide Web Consortium) em 1996, por uma razão bem simples. O HTML não foi projetado para ter tags que ajudariam a formatar a página, apenas escrever a marcação para o site.
+        </p>
+        <p> 
+            <span>O que é CSS? </span>
+            Chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site.. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos.
+        </p>
+        <p> 
+            <span>Como incluir CSS no projeto?</span>
+            Existem três formas para incluir o código CSS em projetos:
+        </p>
+        <ul>
+            <li><span class="item">Inline → </span>A primeira forma de aplicar CSS a uma página é utilizando o atributo style em elementos do HTML.</li>
+            <li><span class="item">Interno → </span> A segunda forma é utilizar a tag style dentro do head da página HTML.</li>
+            <li><span class="item">Externo → </span> E a última - porém a mais utilizada - maneira de aplicar CSS é criar um ou mais arquivos com extensão .css e incluí-los na estrutura head do HTML.</li>
+        </ul>
+
+        <img id="imagem1" src="../img/cssimagem.png" alt="texto alternativo">
+        <img id="imagem2" src="../img/cssimagem.png" alt="texto alternativo">
+        <img id="imagem3" src="../img/cssimagem.png" alt="texto alternativo">
+        <img id="imagem4" src="../img/cssimagem.png" alt="texto alternativo">
+
+        <!--Formulário-->
+       <form action="#" method="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+            <label for="nome">Nome:
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@mail.com">
+            <input id="botao" type="submit" value="Desejo me inscrever">
+        </fieldset>
+      </form>
+
+    </div>
+   
+    <h4><a href="../index.html">← Voltar a Home</a></h4>
+    <div id="footer">
+        <p class="ministrantes">Extensão - FATESG - Senai | Alunos do 5º período de Análise e Desenvolvimento de Sistemas | 1º/ 2023</p> 
+    </div>
+</body>
+</html> 
